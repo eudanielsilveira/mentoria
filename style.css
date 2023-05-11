@@ -27,7 +27,7 @@ body::before {
 .page {
   width: 750px;
 
-  margin: auto;
+  margin: 0 auto 100px;
 }
 header {
   margin-top: 140px;
