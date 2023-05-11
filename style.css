@@ -112,6 +112,15 @@ main {
 
   border: 1px solid #E6E6F0;
   border-radius: 8px;
+
+  
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 24px;
+  padding: 10px;
+
+
+  color: #84818a;
 }
 
 .info__mentor .info {
@@ -125,6 +134,53 @@ main {
 
 
   color: #535971;
+}
+
+.info__data {
+  display: flex;
+  gap: 32px;
+}
+
+.info__data .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__time {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.info__time .time {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  padding: 6.4rem;
+
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+}
+footer button {
+  cursor: pointer;
+
+  width: 100%;
+  border: none;
+  padding: 15px 40px;
+
+  background: #FF5374;
+  border-radius: 20px;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+
+  color: #FFFFFF;
 }
 
 /* .page {
